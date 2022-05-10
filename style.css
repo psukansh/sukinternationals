@@ -235,6 +235,12 @@
   border: none;
 }
 
+.container .about .heading img{
+  width: 400px;
+  height: 250px;
+  margin: 18px 0px;
+}
+
 .container .about .info {
   width: 50%;
   padding: 40px;
@@ -504,6 +510,10 @@
 	
 }
 
+.container .contact .content h3{
+  color:rgba(255, 168, 118, 1);
+}
+
 .container .contact .content form{
 	width: 50%;
 	display: flex;
@@ -676,6 +686,11 @@
   margin: 17px 0px;
 }
 
+.container .about .heading img{
+  width: 100%;
+  height: 200px;
+}
+
 .container .about .info{
   width: 100%;
   flex-direction: column;
@@ -692,6 +707,10 @@
 .container .what{
   width: 100%;
   padding: 50px 3px;
+}
+
+.container .what p{
+  margin: 17px 0px;
 }
 
 .container .what .content{
@@ -762,9 +781,15 @@
 
 .container .contact .content .address{
   width: 100%;
+  height: 120px;
+  
 }
 
-.container .contact p{
+.container .contact .content .address p{
+  font-size: 13px;
+}
+
+.container .contact  p{
   width: 90%;
   font-size: 13px;
 }
