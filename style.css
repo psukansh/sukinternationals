@@ -703,6 +703,8 @@
   width: 100%;
   border-radius: 0px;
   margin: 10px 6px;
+  border: none;
+  background-color: white;
 }
 
 .container .what p{
