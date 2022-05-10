@@ -389,6 +389,10 @@
   display: none;
 }
 
+.slideshow-container .mySlides img{
+  width: 700px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -603,6 +607,10 @@
 	margin: 0px 13px;
 }
 
+.container .footer .social-media li a i{
+	font-size: 17px;
+}
+
 .container .footer p{
 	width: 100%;
 	height: 40px;
@@ -611,4 +619,118 @@
 	align-items: center;
 	background-color: rgba(31, 20, 14, 1);
 	font-size: 13px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+
+  .container .homepage{
+    width: 100%;
+  }
+.container .homepage nav .menu_list{
+  display: none;
+}
+
+.container .homepage nav .logo .name{
+  width: 100%;
+}
+
+.container .homepage .banner{
+  width: 100%;
+}
+
+.container .homepage .banner h1{
+  font-size: 25px;
+  text-align: center;
+}
+
+.container .homepage .banner p{
+  width: 90%;
+  font-size: 13px;
+}
+
+.container .about{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 40px 7px;
+}
+
+.container .about .heading{
+  width: 100%;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.container .about .info{
+  width: 100%;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.container .what{
+  width: 100%;
+  padding: 0px;
+}
+
+.container .what p{
+  width: 90%;
+}
+
+.container .brochure{
+  width: 100%;
+}
+
+.container .brochure p{
+  width: 90%;
+}
+
+.container .brochure img{
+  width: 100%;
+}
+
+.container .slideshow-container{
+  width: 100%;
+}
+
+.container .slideshow-container .mySlides{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .slideshow-container .mySlides img{
+  width: 100%;
+}
+
+.container .contact{
+  width: 100%;
+  height: 100%;
+  padding: 30px 0px;
+}
+
+.container .contact .content{
+  flex-direction: column;
+}
+
+.container .contact .content form{
+  width: 100%;
+}
+
+.container .contact .content .address{
+  width: 100%;
+}
+
+.container .contact p{
+  width: 90%;
+}
+
+.container .location iframe{
+  width: 100%;
+}
+
+.container .footer{
+  width: 100%;
+}
+
 }
