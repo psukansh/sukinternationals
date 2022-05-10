@@ -625,6 +625,8 @@
 
   .container .homepage{
     width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .container .homepage nav{
