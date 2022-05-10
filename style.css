@@ -688,6 +688,10 @@
   margin: 0px 0px;
 }
 
+.container .what .content .box{
+  border-radius: 0px;
+}
+
 .container .what p{
   width: 90%;
   font-size: 13px;
