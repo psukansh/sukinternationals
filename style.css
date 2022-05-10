@@ -626,12 +626,21 @@
   .container .homepage{
     width: 100%;
   }
+
+  .container .homepage nav{
+    height: 100px;
+  }
 .container .homepage nav .menu_list{
   display: none;
 }
 
 .container .homepage nav .logo .name{
   width: 100%;
+  justify-content: left;
+}
+
+.container .homepage nav .logo .logo-icon{
+  display: none;
 }
 
 .container .homepage .banner{
