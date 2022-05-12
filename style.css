@@ -703,12 +703,12 @@
   }
 
   .container .about .heading img {
-    width: 100%;
+    width: 300px;
     height: 200px;
   }
 
   .container .about .info {
-    width: 100%;
+    width: 300px;
     flex-direction: column;
     padding: 5px;
     font-size: 13px;
@@ -735,7 +735,7 @@
   }
 
   .container .what .content .box {
-    width: 100%;
+    width: 300px;
     border-radius: 0px;
     margin: 10px 6px;
     border: none;
@@ -783,12 +783,16 @@
     margin: 12px 0px;
   }
 
+  .container .contact p{
+    width: 300px;
+  }
+
   .container .contact .content {
     flex-direction: column;
   }
 
   .container .contact .content form {
-    width: 100%;
+    width: 300px;
   }
 
   .container .contact .content form input,
